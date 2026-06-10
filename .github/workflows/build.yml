@@ -1,4 +1,4 @@
-name: CART Build And Push
+name: cart Build And Push
 
 on:
 
