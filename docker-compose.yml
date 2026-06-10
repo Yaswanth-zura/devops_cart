@@ -1,0 +1,17 @@
+services:
+
+  cart:
+    image: 663566123253.dkr.ecr.ap-south-2.amazonaws.com/cart:${CART_TAG}
+
+    container_name: cart
+
+    ports:
+      - "1004:1004"
+
+    networks:
+      - micro-net
+
+networks:
+  micro-net:
+    external: true
+    
